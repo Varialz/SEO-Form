@@ -1,15 +1,17 @@
-# SEO Eligibility Form
+# Liquid Glass Form Portal
 
-A Liquid Glass landing page that routes prospective clients to the SEO eligibility questionnaire.
+A lightweight landing page designed to send visitors to a Google Form.
 
-## Google Form link
+## Add your Google Form
 
-Open `script.js` and replace the `GOOGLE_FORM_URL` value with the published Google Form URL.
+Open `script.js` and replace the value of `GOOGLE_FORM_URL` with the published
+Google Form link.
 
-## GitHub Pages
+## Publish with GitHub Pages
 
-The included GitHub Actions workflow deploys the root website files to GitHub Pages whenever `main` is updated.
+1. Upload `index.html`, `style.css`, and `script.js` to a GitHub repository.
+2. In the repository, open **Settings → Pages**.
+3. Under **Build and deployment**, select **Deploy from a branch**.
+4. Choose the `main` branch and `/ (root)`, then save.
 
-## Download
-
-The original packaged website is included as `liquid-glass-form-site.zip`.
+GitHub will display the public URL after deployment finishes.
