@@ -8,5 +8,5 @@ window.addEventListener("pointermove", (event) => {
 }, { passive: true });
 
 // Replace this with your published Google Form URL.
-const GOOGLE_FORM_URL = "https://forms.google.com/";
-document.querySelector("[data-form-link]").href = GOOGLE_FORM_URL;
+const GOOGLE_FORM_URL = "https://forms.gle/5RxEKX65cDubq9kB6";
+document.querySelectorAll("[data-form-link]").forEach((link) => {\n  link.href = GOOGLE_FORM_URL;\n});
